@@ -20,3 +20,12 @@ public:
 
 class BinaryTree
 {
+public:
+    Node *root;
+
+    BinaryTree()
+    {
+        root = NULL; // Iitalizing ROOT to NULL
+    }
+
+    
