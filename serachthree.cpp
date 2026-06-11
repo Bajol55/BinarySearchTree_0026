@@ -44,3 +44,12 @@ public:
 
         if (parent == NULL)
         {
+            root = newNode;
+            return;
+        }
+
+        if (element < parent->info)
+        {
+            parent->leftchild = newNode;
+        }
+        
